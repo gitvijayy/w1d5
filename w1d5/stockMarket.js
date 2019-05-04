@@ -4,7 +4,6 @@ var profit = [];
 
 for(var i = 0; i < stockPrice.length; i++) {
   for(var j = i + 1; j < stockPrice.length; j++) {
-
     price.push([stockPrice[i],stockPrice[j]]);
     profit.push(Number(stockPrice[j] - stockPrice[i]));
   };
